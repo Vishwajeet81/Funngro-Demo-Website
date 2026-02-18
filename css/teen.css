@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: "Google Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:200;
+  font-style: normal;
+  font-variation-settings:
+    "GRAD" 0;
+}
+
+.nav{
+    height: 10vh;
+    position: sticky;
+    top: 0;
+    /* border: 2px solid; */
+    z-index: 1;
+    display: flex;
+    gap: 42vw;
+    padding: 34px;
+    align-items: center;
+    background-color: black;
+}
+
+.nav_content ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid; */
+    width: 39vw;
+}
+
+.nav_content ul li{
+    padding: 20px;
+    width: 120px;
+}
+.nav_content ul li a{
+    transition: all 0.3s ease-in-out;
+    
+}
+.nav_content ul li a:hover{
+    color: rgb(18, 255, 46);
+    font-size: 18px;
+    
+}
+
+.nav_content ul li button{
+    /* border: 2px solid; */
+   text-align: center;
+   background-color: rgb(17, 173, 17);;
+   border: none;
+   border-radius: 10px;
+   height: 30px;
+   width: 80px;
+   transition: all 0.3s ease-in-out;
+   cursor: pointer;
+}
+.nav_content ul li button:hover{
+    background-color: rgb(11, 185, 11);
+    font-size:17px;
+    transform: scale(1.1);
+}
+
+
+.header{
+    /* border: 2px solid black; */
+    background-image: url("/images/undraw_children_e6ln.svg");
+    height: 56vh;
+    background-size: 52%;
+    background-repeat: no-repeat;
+    background-position: center right;
+    padding: 38px;
+    /* border-top: 1px solid;
+    border-left: 1px solid;
+    border-right: 1px solid; */
+    border: 1px solid;
+    border-radius: 3px;
+}
+
+.header_txt{
+    /* border: 2px solid black; */
+    width: 35%;
+    font-size: 60px;
+
+}
+
+.header_txt2{
+    /* border: 2px solid black; */
+    width: 40%;
+    font-size: 22px;
+    margin-top: 20px;
+}
+.button{
+   padding: 10px;
+   font-size: 25px;
+   margin-left: 150px;
+   margin-top: 34px;
+   border-radius: 10px;
+   text-align: center;
+   background-color: rgb(17, 173, 17);
+   cursor: pointer;
+   transition: all 0.3s ease-in-out;
+   border: none;
+}
+
+.button:hover{
+    background-color: rgb(18, 255, 46);
+    transform: scale(1.2);
+}
+
+.mid_layout{
+    /* border:2px solid red; */
+    display: flex;
+}
+
+.first_mid{
+    /* border: 2px solid red; */
+    /* height: 50vh; */
+    width: 50%;
+    padding: 60px;
+}
+
+.second_mid{
+    /* border: 2px solid blue; */
+    /* height:50vh; */
+    width: 50%;
+}
+
+.text1_layout p{
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+
+
+.first_mid_card_layout{
+    margin-top: 50px;
+    border:1px solid; 
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.mid_card_img >img{
+    width: 150px;
+    /* border-radius: 100px; */
+    /* border:2px solid */
+}
+.first_mid_card{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding: 40px;
+    /* border: 2px solid; */
+
+}  
+
+.first_mid_card_content{
+    /* border: 2px solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around ;
+    height: 120px;
+    margin-left: 30px;
+}
+
+.breaker{
+    border: 1px solid;
+}
+
+
+.mid2{
+    /* border: 2px solid green; */
+    padding: 40px;
+}
+
+.success_stories_layout{
+    /* border: 2px solid; */
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pic img{
+    height: 150px;
+    background-color: black;
+}
+.pic{
+    margin-top: 20px;
+    margin-left: 300px;
+}
+.message{
+    text-align: center;
+    font-size: 25px;
+}
+
+.profile{
+    
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.personal_detail{
+    margin-left: 50px;
+    font-size: 25px;
+}
+
+.success_story_1{
+    border: 1px solid;
+    width: 60vw;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.mid2 h2{
+    margin-left: 150px;
+    font-size: 40px;
+}
+
+.footer{
+    padding: 20px;
+    /* border : 2px solid ; */
+    height: 15vh ;
+    position: sticky;
+    bottom: 0px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.content ul{
+    margin-left: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+.logo{
+    margin-left: 40px;
+}
+.content ul li{
+    padding-left: 40px;
+    font-size: 18px;
+}
+
+.copyright{
+    margin-left: 180px;
+}
+
+a{
+    text-decoration: none;
+}
