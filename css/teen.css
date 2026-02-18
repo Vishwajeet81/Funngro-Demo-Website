@@ -70,7 +70,7 @@
 
 .header{
     /* border: 2px solid black; */
-    background-image: url("/images/undraw_children_e6ln.svg");
+    background-image: url("images/undraw_children_e6ln.svg");
     height: 56vh;
     background-size: 52%;
     background-repeat: no-repeat;
@@ -258,4 +258,5 @@
 
 a{
     text-decoration: none;
+
 }
