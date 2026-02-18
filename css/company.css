@@ -18,7 +18,7 @@
 
 .header{
     /* border: 2px solid black; */
-    background-image: url("images/undraw_decide_g91m.svg");
+    background-image: url("../images/undraw_decide_g91m.svg");
     height: 55vh;
     background-size: 55%;
     background-repeat: no-repeat;
@@ -285,3 +285,4 @@ a{
     margin-left: 180px;
 
 }
+
